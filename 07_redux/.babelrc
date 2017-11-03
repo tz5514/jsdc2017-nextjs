@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "next/babel",
+    "stage-0"
+  ],
+  
+  "plugins": [
+    ["transform-define", "./config/env.js"],
+    
+    ["provide-modules", {
+      "isomorphic-fetch": "fetch"
+    }],
+
+    ["module-resolver", {
+      "root": ["./", "./src"]
+    }]
+  ]
+}
