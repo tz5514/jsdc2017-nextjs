@@ -1,4 +1,4 @@
-import reduxPage from 'config/store'
+import wrapWithLayout from 'src/Layout'
 import NewsListContainer from 'NewsList/containers/NewsListContainer'
 import NewsListAction from 'NewsList/redux/NewsListAction'
 const { fetchNewsList } = NewsListAction;
@@ -21,4 +21,4 @@ class NewsListPage extends React.Component {
   }
 }
 
-export default reduxPage(NewsListPage)
+export default wrapWithLayout(NewsListPage)

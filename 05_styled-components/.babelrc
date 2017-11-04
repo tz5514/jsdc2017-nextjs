@@ -5,10 +5,9 @@
   ],
   
   "plugins": [
-    ["transform-define", "./config/env.js"],
-    
-    ["provide-modules", {
-      "isomorphic-fetch": "fetch"      
+    ["styled-components", {
+      "ssr": true,
+      "displayName": true
     }],
 
     ["module-resolver", {

@@ -13,8 +13,8 @@ export default class NewsListPage extends React.Component {
     return (
       <div>
         {this.props.data && this.props.data.map(item => (
-          <div key={item.id}>
-            {item.title}
+          <div key={item}>
+            {item}
           </div>
         ))}
       </div>

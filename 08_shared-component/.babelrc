@@ -8,7 +8,7 @@
     ["transform-define", "./config/env.js"],
     
     ["provide-modules", {
-      "isomorphic-fetch": "fetch"      
+      "isomorphic-fetch": "fetch"
     }],
 
     ["module-resolver", {

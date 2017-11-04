@@ -6,8 +6,7 @@
   
   "plugins": [
     ["provide-modules", {
-      "fetch": "isomorphic-fetch",
-      "lodash": "_"
+      "isomorphic-fetch": "fetch"
     }],
 
     ["transform-define", "./config/env.js"],
